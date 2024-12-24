@@ -5,20 +5,19 @@ A Medical Imaging Diagnosis Agent build on phidata powered by Gemini 2.0 Flash E
 ## Features
 
 - **Comprehensive Image Analysis**
-  - Image Type Identification (X-ray, MRI, CT scan, ultrasound)
-  - Anatomical Region Detection
-  - Key Findings and Observations
-  - Potential Abnormalities Detection
-  - Image Quality Assessment
-  - Research and Reference
+- User Authentication: Configure Google API keys for secure integration.
+- Medical Image Upload: Supports multiple formats (JPG, PNG, DICOM, etc.).
+- AI-Powered Analysis: Provides detailed insights on medical images using a Gemini-based model.
+- Patient-Friendly Explanations: Delivers simple, understandable results for non-expert users.
+- Research Context Integration: Searches for relevant medical literature and protocols via DuckDuckGo.
+- Interactive UI: User-friendly Streamlit interface with a sidebar configuration panel.
 
 ## How to Run
 
 1. **Setup Environment**
    ```bash
    # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_medical_imaging_agent
+  git clone https://github.com/HelpRam/Medical-Imaging-Diagnosis-Agent.git
 
    # Install dependencies
    pip install -r requirements.txt
@@ -53,13 +52,17 @@ A Medical Imaging Diagnosis Agent build on phidata powered by Gemini 2.0 Flash E
   - Detailed first-principles explanations
   - Visual reference points
 
-## Notes
+##Technologies Used
 
-- Uses Gemini 2.0 Flash for analysis
-- Requires stable internet connection
-- API usage costs apply
-- For educational and development purposes only
-- Not a replacement for professional medical diagnosis
+Programming Language: Python
+
+Frameworks:
+Streamlit for UI
+Gemini for AI analysis
+
+Tools:
+DuckDuckGo API for research integration
+Pillow for image processing
 
 ## Disclaimer
 
